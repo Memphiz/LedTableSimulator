@@ -18,4 +18,4 @@ Requirements:
   a. Width is 10 pixels - refered to by W
   b. Height is 10 pixel - refered to by H
   c. X and Y are coordinates on the table where x = 0 is the very left and y = 0 is the very bottom of the table.
-  d. Pixel order is x0y0 .. xWy0, xWy1 .. x0y1, x0y2 .. xWy2, xWy3 ..x0y3 .. up to yH
+  d. Pixel order is x0y0 .. x0yH, x1yH .. x1y0, x2y0 .. x2yH, x3yH ..x3y0 .. further to the right until xW
