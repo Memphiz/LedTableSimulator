@@ -1,8 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <StartupObject>LedTableSimulator.Program</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.WindowsDX" Version="3.8.0.1641" />
+    <PackageReference Include="MQTTnet" Version="3.0.12" />
+    <PackageReference Include="SadConsole" Version="8.99.3" />
+  </ItemGroup>
 
 </Project>
